@@ -28,6 +28,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              "color-pink":"#F85559"
             },
           },
         },
@@ -40,7 +41,21 @@
     </style>
   </head>
   <body class="font-lato">
-    <header></header>
+    <header class="container mx-auto">
+        <!-- navbar section  -->
+        <nav class="mt-12">
+            <div class="navbar bg-color-pink">
+                <div class="flex-1">
+                  <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                </div>
+                <div class="flex-none gap-2">
+                  <div class="form-control">
+                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </header>
     <main></main>
     <footer></footer>
   </body>
