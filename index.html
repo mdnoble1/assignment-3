@@ -35,6 +35,8 @@
             colors: {
               clifford: "#da373d",
               "color-pink": "#F85559",
+              "color-black": "#121212",
+              "color-gray": "#6d6d6d",
             },
           },
         },
@@ -289,36 +291,65 @@
     <main class="container mx-auto">
       <!-- deal of the day section  -->
       <section>
-        <div class="flex">
-          <div>
-            <h3>Deal of the day</h3>
-            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <div
+          class="text-center lg:text-left lg:flex justify-between items-center mt-4"
+        >
+          <div class="max-w-xs md:max-w-lg lg:max-w-xl mx-auto lg:mx-0">
+            <h3
+              class="font-extrabold text-4xl lg:text-5xl text-color-black mb-6"
+            >
+              Deal of the day
+            </h3>
+            <p class="font-medium text-sm lg:text-base text-color-gray mb-5">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
           </div>
+          <!-- countdown section  -->
           <div>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div
+              class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center"
+            >
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
-                  <span style="--value:15;"></span>
+                <span
+                  class="countdown text-4xl lg:text-5xl font-extrabold text-color-black"
+                >
+                  <span style="--value: 29"></span>
                 </span>
-                days
-              </div> 
+                <span class="font-medium text-sm lg:text-base text-color-gray"
+                  >Days</span
+                >
+              </div>
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
-                  <span style="--value:10;"></span>
+                <span
+                  class="countdown text-4xl lg:text-5xl font-extrabold text-color-black"
+                >
+                  <span style="--value: 15"></span>
                 </span>
-                hours
-              </div> 
+                <span class="font-medium text-sm lg:text-base text-color-gray"
+                  >Hours</span
+                >
+              </div>
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
-                  <span style="--value:24;"></span>
+                <span
+                  class="countdown text-4xl lg:text-5xl font-extrabold text-color-black"
+                >
+                  <span style="--value: 25"></span>
                 </span>
-                min
-              </div> 
+                <span class="font-medium text-sm lg:text-base text-color-gray"
+                  >Minutes</span
+                >
+              </div>
               <div class="flex flex-col">
-                <span class="countdown font-mono text-5xl">
-                  <span style="--value:35;"></span>
+                <span
+                  class="countdown text-4xl lg:text-5xl font-extrabold text-color-black"
+                >
+                  <span style="--value: 08"></span>
                 </span>
-                sec
+                <span class="font-medium text-sm lg:text-base text-color-gray"
+                  >Seconds</span
+                >
               </div>
             </div>
           </div>
