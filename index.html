@@ -56,18 +56,20 @@
   <body class="font-lato">
     <header class="container mx-auto">
       <!-- navbar section  -->
-      <nav class="lg:mt-12">
+      <nav class="lg:mt-12 lg:mb-14">
       <div
-        class="navbar lg:bg-pink-500 h-28 lg:rounded-full flex justify-between items-center pl-8 lg:pl-16"
+        class="navbar lg:bg-color-pink h-28 lg:rounded-full flex justify-between items-center pl-8 lg:pl-16"
       >
         <!-- left button part  -->
         <div
-          class="font-medium text-lg text-white lg:flex lg:gap-7 cursor-pointer hidden lg:block"
+          class="font-medium text-lg text-white cursor-pointer hidden lg:block"
         >
-          <a>Home</a>
-          <a>About Us</a>
-          <a>Shop</a>
-          <a>All Fruits</a>
+          <div class="flex lg:gap-7 ">
+            <a>Home</a>
+            <a>About Us</a>
+            <a>Shop</a>
+            <a>All Fruits</a>
+          </div>
         </div>
         <!-- icon part -->
         <div class="flex gap-3 items-center">
@@ -113,6 +115,7 @@
                 <li><a>All Fruits</a></li>
                 <li>
                   <a>
+                    <form action="/search" class=""></form>
                     <div class="form-control">
                       <input
                         type="text"
@@ -120,6 +123,7 @@
                         class="input w-40 h-8 rounded-full"
                       />
                     </div>
+                  </form>
                   </a>
                 </li>
               </ul>
