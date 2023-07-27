@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fruit Burst</title>
-
     <!-- tailwind and daisy ui cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
@@ -12,7 +11,6 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-
     <!-- lato google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,13 +18,11 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-
     <!-- font awesome kit  -->
     <script
       src="https://kit.fontawesome.com/549d303daa.js"
       crossorigin="anonymous"
     ></script>
-
     <!-- custom css classes  -->
     <script>
       tailwind.config = {
@@ -72,7 +68,7 @@
           </div>
         </div>
         <!-- icon part -->
-        <div class="flex gap-3 items-center">
+        <div class="flex gap-3 items-center md:ml-4">
           <img class="w-7 md:w-10 lg:auto" src="images/logo.png" alt="" />
           <h3
             class="font-bold text-xl md:text-2xl lg:text-[40px] text-black lg:text-white"
@@ -99,7 +95,7 @@
           </form>
         </div>
         <!-- right toggle button part  -->
-        <div class="block lg:hidden">
+        <div class="block lg:hidden mr-2 md:mr-7">
           <button class="btn btn-ghost text-xl">
             <div class="dropdown dropdown-end">
               <label tabindex="0" class=""
@@ -313,9 +309,7 @@
               Deal of the day
             </h3>
             <p class="font-medium text-sm lg:text-base text-color-gray mb-5">
-              Contrary to popular belief, is not simply random text. It has
-              roots in a piece of classical Latin literature from 45 BC, making
-              it over 2000 years old.
+              Welcome to Fruit Burst! Discover a delightful assortment of fresh, juicy fruits. Savor nature's sweetness and revitalize your taste buds with our farm-fresh, hand-picked selections. Enjoy the burst of flavors!
             </p>
           </div>
           <!-- countdown section  -->
@@ -327,7 +321,7 @@
                 <span
                   class="countdown text-4xl lg:text-5xl font-extrabold text-color-black"
                 >
-                  <span style="--value: 29"></span>
+                  <span style="--value: 29"></span> 
                 </span>
                 <span class="font-medium text-sm lg:text-base text-color-gray"
                   >Days</span
@@ -368,7 +362,7 @@
         </div>
         <!-- card section  -->
         <div
-          class="mt-12 grid grid-cols-1 gap-5 ml-10 md:grid-cols-2 md:gap-8 md:ml-4 lg:grid-cols-4 lg:gap-11"
+          class="mt-12 grid grid-cols-1 gap-5 ml-10 md:grid-cols-2 md:gap-8 md:ml-4 lg:ml-0 lg:grid-cols-4 lg:gap-11"
         >
           <!-- first card  -->
           <div
@@ -825,16 +819,14 @@
         >
           <div class="hero-overlay bg-opacity-60 rounded-lg"></div>
           <div class="text-center text-neutral-content">
-            <div class="max-w-2xl mt-2 mx-auto">
+            <div class="max-w-xs md:max-w-xl lg:max-w-2xl mt-2 mx-auto">
               <h3
                 class="font-extrabold text-3xl md:text-4xl lg:text-5xl text-white mb-6"
               >
                 Meet the Team
               </h3>
               <p class="font-medium text-white">
-                Contrary to popular belief, is not simply random text. It has
-                roots in a piece of classical Latin literature from 45 BC,
-                making it over 2000 years old.
+                Meet the exceptional team behind Fruit Burst! Committed to quality and your satisfaction, our employees work tirelessly to bring you a delightful variety of fruits, making every bite a burst of joy.
               </p>
             </div>
             <!-- card section  -->
@@ -913,9 +905,7 @@
         <p
           class="font-medium text-color-gray max-w-xs md:max-w-lg lg:max-w-xl mx-auto text-center"
         >
-          Contrary to popular belief, is not simply random text. It has roots in
-          a piece of classical Latin literature from 45 BC, making it over 2000
-          years old.
+        Discover the essence of nature's sweetness at Fruit Burst. Handpicked with care, our diverse range of fresh fruits promises unrivaled flavors and nourishment, making us your ultimate choice for fruity indulgence.
         </p>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-12">
           <!-- first part  -->
@@ -986,7 +976,7 @@
           </div>
           <!-- second part  -->
           <div
-            class="-order-1 w-[360px] ml-9 md:w-[660px] md:flex md:justify-center lg:w-auto"
+            class="-order-1 w-[360px] ml-8 md:ml-14 lg:ml-0 md:w-[660px] md:flex md:justify-center lg:w-auto"
           >
             <img src="images/whychoose1.png" alt="" />
           </div>
